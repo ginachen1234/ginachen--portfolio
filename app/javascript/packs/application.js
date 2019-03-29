@@ -24,35 +24,5 @@ $(document).ready(function(){
 
 
 
-// cards
 
-
-
-
-
-$(document).ready(function(){
-
-  $('.element-card').on('click', function(){
-
-    if ( $(this).hasClass('open') ) {
-      $(this).removeClass('open');
-    } else {
-      $('.element-card').removeClass('open');
-      $(this).addClass('open');
-    }
-
-  });
-
-});
-//footer
-var instaFeed = new Instafeed({
-              get: 'user',
-              userId: 34139106,
-              accessToken: '34139106.467ede5.2e8f6b6a9cf846f6bd23169b624aca22',
-              target: 'instafeed',
-              sortBy: 'most-liked',
-              limit: 200,
-              resolution: 'thumbnail'
-}); instaFeed.run();
-//
 
