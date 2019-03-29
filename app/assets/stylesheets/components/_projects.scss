@@ -1,4 +1,5 @@
 .projects-section {
+  transition: all 0.4s;
   padding: 10rem 0;
   .featured-text {
     padding: 2rem;
@@ -28,7 +29,8 @@
 
 .card-category {
 
-overflow: hidden;
+
+margin-right: -16px;
 display: block;
 height: 350px;
 width: 50vw;
@@ -70,3 +72,10 @@ background-position: center;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+.projects-section {
+  color:white;
+font-family: "Raleway", "Helvetica", "sans-serif";
+
+}
+
