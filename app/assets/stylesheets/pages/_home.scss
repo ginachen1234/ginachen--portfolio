@@ -282,10 +282,11 @@ a:hover {
   padding: 3.25rem;
 }
 .button.large a {
-  color: white;
+  color: #f9f7f7;
   font-size: 1.75rem;
   font-weight: 100;
   margin-top: 2rem;
+  font-family:Open Sans;
 }
 
 /* Card design - back */
@@ -301,6 +302,8 @@ a:hover {
 .panel small {
   width: 80%;
   float: right;
+  font-family:Open Sans;
+  text-align: center;
 }
 .panel a {
   margin-bottom: 0.5rem;
@@ -318,7 +321,7 @@ a:hover {
  */
 .flip-cards {
   float: left;
-  width: 100%;
+  width: 125%;
   height: 100%;
   padding-left: 1rem;
 }
@@ -518,13 +521,20 @@ a:hover {
     font-size: 1.35rem;
   }
 }
-
+.bio-unit {
+  color:white;
+  text-shadow:#752f2f;
+  font-family:Open Sans;
+  font-size:20px;
+}
 
 .aboutme-info {
  margin-top:50%;
 }
 .name {
+
 text-shadow:#752f2f;
 text-align: center;
 line-height: 40px;
+font-family:Open Sans;
 }

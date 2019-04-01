@@ -8,15 +8,13 @@
 
   <div class="header-container" style="font-family: fantasy">
 
-    <div class = "name" style= "color: #fff6fa; font-family:Open Sans;"> <h3>London-based Website <br>designer and Developer</h3></div>
-<!--     <div class = "name" style= "color: ghostwhite"> --> <!-- <p>I am a London-based fullstack developer.
-     <br>I build creative, interactive and user-friendly websites for any industry.</p></div>
+    <div class = "name" > <h3>London-based Website designer and Developer<br>I build creative, interactive and user-friendly websites for any industry.</h3></div>
 
 </head>
 
 <body>
 
-   Navigation -->
+
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" style = "margin-top: 35px;"id="mainNav">
     <div class = "nav-left"><%= image_tag "Gina's Logo-04.png", class: "img"%></div>
     <div class="container" style = "padding: 27px;">
@@ -54,14 +52,14 @@
     <div class="large-12 columns">
       <hgroup>
         <h2 style="font-family: Open Sans">Code. Design. Education.</h2><br>
-        <p style = "font-family: Open Sans; color:floralwhite;">My passion for coding kept me continously learning. Make new opportunities.</p>
+        <p class = "bio-unit" >My passion for coding kept me continously learning. Make new opportunities.</p>
       </hgroup>
 
 
       <ul class="small-block-grid-2 medium-block-grid-3 flip-cards">
 
-        <li ontouchstart="this.classList.toggle('hover');">
-          <div class="large button card-front">
+        <li ontouchstart="this.classList.toggle('hover');" style="list-style: none;">
+          <div class="large button card-front" id = code-unit>
             <a href="#">Code</a>
             <i class="fa fa-code card-icon "></i>
           </div>
@@ -75,7 +73,7 @@
           </div>
         </li>
 
-        <li ontouchstart="this.classList.toggle('hover');">
+        <li ontouchstart="this.classList.toggle('hover');" style="list-style: none;">
           <div class="large button card-front">
             <a href="http://www.aaronsnowberger.com">Design</a>
             <i class="fa fa-pencil-square-o card-icon"></i>
@@ -91,8 +89,8 @@
           </div>
         </li>
 
-        <li ontouchstart="this.classList.toggle('hover');">
-          <div class="large button card-front">
+        <li ontouchstart="this.classList.toggle('hover');" style="list-style: none;">
+          <div class="large button card-front" id ="code-unit">
             <a href="">Education</a>
             <i class="fa fa-paper-plane-o card-icon"></i>
           </div>
@@ -107,7 +105,7 @@
           </div>
         </li>
 
-        <li ontouchstart="this.classList.toggle('hover');">
+        <li ontouchstart="this.classList.toggle('hover');" style="list-style: none;">
           <div class="large button card-front">
             <a href="">Life</a>
             <i class="fa fa-map-o card-icon"></i>
@@ -123,14 +121,13 @@
           </div>
         </li>
 
-        <li ontouchstart="this.classList.toggle('hover');">
-          <div class="large button card-front">
+        <li ontouchstart="this.classList.toggle('hover');" style="list-style: none;">
+          <div class="large button card-front" id ="code-unit">
             <a href="http://www.keytokorean.com">Languages</a>
             <i class="fa fa-language card-icon"></i>
           </div>
 
           <div class="panel card-back">
-            <i class="fa fa-language card-icon"></i>
             <div class="hub-info">
 
               <p>Love languages, love meeting people from different background.
@@ -139,8 +136,8 @@
           </div>
         </li>
 
-        <li ontouchstart="this.classList.toggle('hover');">
-          <div class="large button card-front">
+        <li ontouchstart="this.classList.toggle('hover');" style="list-style: none;">
+          <div class="large button card-front" >
             <a href="http://www.aicfchurch.org">Community</a>
             <i class="fa fa-users card-icon"></i>
           </div>
@@ -194,21 +191,21 @@
 
 <div class="cards-projects" style = "margin-top: -6%">
 
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/9198/nature-sky-twilight-grass-9198.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)">
+  <a href="http://www.thegreenrocket.com/"><div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/9198/nature-sky-twilight-grass-9198.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)">
     The Green Rocket
-  </div>
+  </div></a>
 
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)">
-    LESSFLY
-  </div>
+
+  <a href="https://airbnb-lessonfly.herokuapp.com/"><div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)">
+    LessonFLY
+  </div></a>
 
 </div>
 
 <div class="cards-projects">
 
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/452737/pexels-photo-452737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)">
-    MissCocktail
-  </div>
+  <a href="https://stark-retreat-93461.herokuapp.com"><div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/452737/pexels-photo-452737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)">MissCocktail
+  </div></a>
 
   <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/1629998/pexels-photo-1629998.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)">
     Led
@@ -233,20 +230,22 @@
 </div>
 
 </div>
+
 <div class="footer" style = "width=100%vw; color: #dce2e8;" >
+  <div class = footer-personal-info>
   <%= image_tag "Gina's Logo-04.png", class: "img2"%>
   <ul class = "list">
     <li class = "detail">+44 (0)7784 704 520</li>
     <li class = "detail"> <a style = "color: #dce2e8" href="ginachen588@gmail.com"> ginachen588@gmail.com</a> </li>
     <li class = "detail">  www.ginachen.co.uk</li>
   </ul>
+   </div>
   <div class="footer-links">
     <a href="#"><i class="fab fa-github"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
     <a href="#"><i class="fab fa-facebook"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
     <a href="#"><i class="fab fa-linkedin"></i></a>
   </div>
+
 
 </div>
 

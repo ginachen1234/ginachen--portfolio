@@ -92,14 +92,14 @@ a:hover {
  */
 .flip-cards {
   float: left;
-  width: 100%;
+  width: 129% !important;
   height: 100%;
   padding-left: 1rem;
+  margin-left: -13%;
 }
 
 .flip-cards li {
   float: left;
-  width: 33.3%;
   height: 180px;
   position: relative;
   padding: 0;
@@ -188,7 +188,7 @@ a:hover {
   background-color: rgba(40, 57, 77, 0.8);
 }
 .flip-cards li:first-child > .panel {
-  background-color: rgba(40, 57, 77, 1);
+  background-color: rgba(235, 167, 36, 1)!important;
 }
 
 /* Second button color */
@@ -196,7 +196,7 @@ a:hover {
   background-color: rgba(109, 193, 202, 0.8);
 }
 .flip-cards li:nth-child(2) > .panel {
-  background-color: rgba(109, 193, 202, 1);
+  background-color: rgba(235, 167, 36, 1);
 }
 
 /* Third button color */
@@ -204,7 +204,7 @@ a:hover {
   background-color: rgba(211, 81, 45, 0.8);
 }
 .flip-cards li:nth-child(3) > .panel {
-  background-color: rgba(211, 81, 45, 1);
+  background-color: rgba(235, 167, 36, 1);
 }
 
 /* Fourth button color */
@@ -220,7 +220,7 @@ a:hover {
   background-color: rgba(75, 135, 150, 0.8);
 }
 .flip-cards li:nth-child(5) > .panel {
-  background-color: rgba(75, 135, 150, 1);
+  background-color: rgba(235, 167, 36, 1);
 }
 
 /* Sixth (last) button color */
@@ -228,7 +228,7 @@ a:hover {
   background-color: rgba(100, 66, 87, 0.8);
 }
 .flip-cards li:last-child > .panel {
-  background-color: rgba(100, 66, 87, 1);
+  background-color: rgba(235, 167, 36, 1);
   color: white;
 }
 
@@ -291,4 +291,9 @@ a:hover {
   .button.large a {
     font-size: 1.35rem;
   }
+}
+
+#code-unit {
+   background-image: url("https://images.pexels.com/photos/54630/japanese-cherry-trees-flowers-spring-japanese-flowering-cherry-54630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+   background-size:cover;
 }
