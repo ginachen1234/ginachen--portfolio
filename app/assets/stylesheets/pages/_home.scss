@@ -297,6 +297,9 @@ a:hover {
   width: 20%;
   opacity: 0.5;
 }
+.panel p {
+  margin-right: 20px;
+}
 .panel a,
 .panel p,
 .panel small {
@@ -532,7 +535,8 @@ a:hover {
  margin-top:50%;
 }
 .name {
-
+color:#f9f7f7;
+font-size:20px;
 text-shadow:#752f2f;
 text-align: center;
 line-height: 40px;
