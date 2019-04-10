@@ -23,7 +23,7 @@ body{
   animation:rotate 63s infinite linear;
 }
 .star{
-  width:4px;
+  width:3px;
   height:3px;
   background:#F7F7B6;
   //border-radius:100%;
@@ -286,7 +286,7 @@ a:hover {
   font-size: 1.75rem;
   font-weight: 100;
   margin-top: 2rem;
-  font-family:Book Antiqua;
+  font-family:sans-serif;
 }
 
 /* Card design - back */
@@ -305,7 +305,7 @@ a:hover {
 .panel small {
   width: 80%;
   float: right;
-  font-family:Book Antiqua;
+  font-family:sans-serif;
   text-align: center;
 }
 .panel a {
@@ -528,7 +528,7 @@ a:hover {
 .bio-unit {
   color:white;
   text-shadow:#752f2f;
-  font-family:Open Sans;
+  font-family:sans-serif;
   font-size:20px;
 }
 
@@ -546,8 +546,10 @@ font-family:Book Antiqua;
 
 
 .contact-info {
-  font-family:Book Antiqua;
+  font-family:sans-serif;
 }
 
-
+.details {
+  font-family:sans-serif;
+}
 

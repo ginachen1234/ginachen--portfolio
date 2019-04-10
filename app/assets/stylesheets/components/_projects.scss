@@ -28,8 +28,7 @@
 }
 
 .card-category {
-
-
+width:50vw;
 margin-right: -16px;
 display: block;
 height: 350px;
@@ -62,14 +61,14 @@ background-position: center;
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .cards-projects {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
   }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .cards-projects {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
   }
 }
 
@@ -144,9 +143,13 @@ figure.effect-sadie:hover p {
   font-family:Book Antiqua;
  }
 
+.cards-projects a {
 
+  text-decoration: none;
+  color:white;
+  font-family:sans-serif;
 
-
+}
 
 .card__img {
 
