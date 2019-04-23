@@ -535,14 +535,21 @@ a:hover {
 .aboutme-info {
  margin-top:50%;
 }
+
 .name {
-color:#f9f7f7;
+color: transparent;
 font-size:20px;
-text-shadow:#752f2f;
 text-align: center;
 line-height: 40px;
 font-family:Book Antiqua;
+text-shadow: 0.5px 0.5px 1px #D8D8D8;
+background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
+background-position: 40% 50%;
+-webkit-background-clip: text;
+letter-spacing: -8px;
 }
+
+
 
 
 .contact-info {
@@ -551,5 +558,24 @@ font-family:Book Antiqua;
 
 .details {
   font-family:sans-serif;
+}
+
+
+.title{
+  font-weight: 800;
+  color: transparent;
+  font-size:120px;
+  background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
+  background-position: 40% 50%;
+  -webkit-background-clip: text;
+  position:relative;
+  text-align:center;
+  line-height:90px;
+  letter-spacing: -8px;
+}
+
+.title2 {
+letter-spacing: 2px;
+font-weight: 750;
 }
 
