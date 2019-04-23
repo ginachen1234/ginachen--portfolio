@@ -3,38 +3,55 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
   <div>
 <div class="gradiant"></div>
 <div class="stars"></div>
 
-  <div class="header-container" style="font-family: fantasy">
-
-
-    <div class = "name" > <h3>London-based Website <br>designer and Developer.</h3></div>
-
-</head>
-
-<body>
-
-
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-target="#myNavbar"style = "margin-top: 35px;"id="mainNav">
-    <div class = "nav-left"><%= image_tag "Gina's Logo-04.png", class: "img"%></div>
-    <div class="container" style = "padding: 27px;">
-
+ <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+    <div class="container">
+      <div class = "nav-left"><%= image_tag "Gina's Logo-04.png", class: "img"%></div>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" style = "color:white; font-family: sans-serif; " href="#projects">projects</a>
           </li>
-          <li class="nav-item">
-            <a class="link link--kukuri" href="#projects">Projects</a>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" style = "color:white; font-family: sans-serif;" href="#about">About</a>
           </li>
-          <li class="nav-item">
-            <a class="link link--kukuri" style = "margin-left: 25px;"href="#contact">Contact</a>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" style = "color:white; font-family: sans-serif;" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
+  <div class="header-container" style="font-family: fantasy">
+
+
+
+  <!--   <div class = "name  " data-aos="fade-up" > <h3>London-based Website <br>designer and Developer.</h3></div> -->
+<!-- If you don't see it u probably are using a browser not based on webkit, so leave IE and grab anything else (Y) -->
+<!-- UPDATE: works in Chrome & Safari, not Firefox. To solve that you could use an SVG insted of pure text. -->
+
+<div class="container">
+  <div class="title"> <h3 class = title2 >London-based Website <br>designer and Developer.</h3>
+  </div>
+
+</div>
+</head>
+
+<body>
+
+
+
+
+
+
 
 <div class="banner" style="color:transparent; border:white solid; margin-top:25%;">
   <div class="container">
@@ -55,7 +72,7 @@
   <div class="row" style = "justify-content: center; margin-top:10%; box-shadow: rgba(0,0,0,0.75)">
     <div class="large-12 columns">
       <hgroup>
-        <h2 style="font-family: sans-serif;">Code. Design. Education.</h2><br>
+        <h3 style="font-family: sans-serif;">Code. Design. Education.</h3><br>
         <p class = "bio-unit" >My passion for coding kept me continously and enthusiastically to learn and <br>gain more experience. Make new opportunities.</p>
       </hgroup>
 
@@ -168,7 +185,7 @@
 <div id="projects"class="large-12 columns" style="color:white">
       <hgroup>
         <div class = "projects-section" >
-          <h1 class = "projects" >Projects</h1></div>
+          <h1 class = "projects" style = "font-style: sans-serif;" >Projects</h1></div>
 </div>
 
 
@@ -209,9 +226,9 @@
   </ul>
    </div>
   <div class="footer-links">
-    <a href="#"><i class="fab fa-github"></i></a>
-    <a href="#"><i class="fab fa-facebook"></i></a>
-    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:ginachen588@gmail.com"><i class="far fa-envelope-open"></i></a>
+    <a href="https://github.com/ginachen1234"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/gina-chen/"><i class="fab fa-linkedin"></i></a>
   </div>
 
 
