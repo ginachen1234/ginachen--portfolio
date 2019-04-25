@@ -537,16 +537,15 @@ a:hover {
 }
 
 .name {
-color: transparent;
-font-size:20px;
+letter-spacing: 3px;
+width: 350px;
 text-align: center;
 line-height: 40px;
-font-family:Book Antiqua;
+font-size: 20px;
+font-weight: 300;
 text-shadow: 0.5px 0.5px 1px #D8D8D8;
-background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
-background-position: 40% 50%;
--webkit-background-clip: text;
-letter-spacing: -8px;
+margin-top: -86px;
+color: floralwhite;
 }
 
 
@@ -583,12 +582,7 @@ letter-spacing: -8px;
   margin-top: -70px;
 }
 
-.statement {
-  color: transparent;
-  font-size:120px;
-  background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
-  background-position: 40% 50%;
-  -webkit-background-clip: text;
-  position:relative;
 
-}
+
+
+
