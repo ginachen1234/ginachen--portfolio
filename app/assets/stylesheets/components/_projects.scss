@@ -145,9 +145,10 @@ figure.effect-sadie:hover p {
 
 .cards-projects a {
 
-  text-decoration: none;
+  text-decoration: none!important;
   color:white;
   font-family:sans-serif;
+
 
 }
 
@@ -200,7 +201,9 @@ figure.effect-sadie:hover p {
 }
 
 
-
+.card-info {
+margin-top: 64px;
+}
 
 
 
